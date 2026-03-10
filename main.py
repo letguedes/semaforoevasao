@@ -124,5 +124,6 @@ elif selecao == "Semáforo":
     st.markdown(f'<div class="main-header"><h1>Semáforo de Evasão: Painel de Monitoramento de Desempenho de Alunos</h1><p>Análise de Dados dos Alunos, com base no SED em Sorocaba/SP</p></div>', unsafe_allow_html=True)
     st.subheader(f"Visão Consolidada | {data_atual}")
     #st.title("Semáforo de Evasão")
-    link_power_bi = "https://app.powerbi.com/view?r=eyJrIjoiOWQxNGU1M2MtZTBjZi00YTkzLTk1YTUtMWE5ZWQ2ZTQ4ZTM3IiwidCI6ImMwMTVkYjY0LWY5ZDctNGYwNi04Njc2LWI2YjcxZDVkMmY4MSJ9"
+    link_power_bi = "https://app.powerbi.com/view?r=eyJrIjoiNDk1M2UyMmYtY2E5MC00YWMxLWFmZmQtOGIzNDUwYjYyOTVkIiwidCI6ImMwMTVkYjY0LWY5ZDctNGYwNi04Njc2LWI2YjcxZDVkMmY4MSJ9"
+
     st.components.v1.iframe(link_power_bi, height=800)
